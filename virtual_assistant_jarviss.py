@@ -122,3 +122,7 @@ while 1 :
             speak.Speak("Janab, downloading song")
             download_audio(speech_to_text[speech_to_text.find("song")+4:])
             
+        else:
+            speak = wincl.Dispatch("SAPI.SpVoice")
+            speak.Speak("Janab, did not get the command")
+            
