@@ -123,5 +123,5 @@ while 1 :
             download_audio(speech_to_text[speech_to_text.find("song")+4:])
             
         else
-            speak.Speak("Janab, disn't understand what you said")
+            speak.Speak("Janab, didn't understand what you said")
             
